@@ -107,11 +107,6 @@ body {
 	max-width: var(--page-width);
 }
 
-h1 {
-	font-size: 4.5em;
-	padding-bottom: 10px;
-}
-
 a.button {
 	border: solid 1px black;
 	color: black;
@@ -164,4 +159,17 @@ footer {
 
 #footer-copyright {
 	text-align: center;
+}
+
+/* index page specific */
+
+body#index h1 {
+	font-size: 4.5em;
+	padding-bottom: 10px;
+}
+
+/* services page specific */
+
+body#services h1 {
+		font-size: 2em;
 }
